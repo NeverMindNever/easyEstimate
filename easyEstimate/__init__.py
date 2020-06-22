@@ -5,6 +5,8 @@ import pandas as pd
 from string import ascii_lowercase
 import datetime
 
+__version__ ="0.4.4"
+
 if __name__ == '__main__':
     base = "../"
 else:

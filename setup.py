@@ -1,14 +1,15 @@
 from setuptools import setup
+from easyEstimate import __version__
 
 setup(
     name='easyEstimate',
-    version='0.4.3',
+    version=__version__,
     packages=['easyEstimate'],
     package_data={'': ['Appartement_Estimation_2019_Cat_Boost.joblib', 'repertoire_code_adr.csv']},
     include_package_data=True,
-    url='',
-    license='',
+    url='www.telecomazur.fr',
+    license='Apache 2.0',
     author='A. Tounsadi',
-    author_email='',
-    description=''
+    author_email='info@telecomazur.fr',
+    description='AN easy way to estimate the price of habitation in France'
 )

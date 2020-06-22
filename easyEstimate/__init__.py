@@ -4,7 +4,7 @@ from string import ascii_lowercase
 import datetime
 
 if __name__ == '__main__':
-    base = "../"
+    base = ""
 else:
     base = ""
 
@@ -40,6 +40,15 @@ def estimer(numero, type_voie, voie, code_postal, surface, nbr_piece, nature=2, 
     Le nbr de pièces: le nombre de pièce de l'habitation
     La nature       : la nature de l'habitation 1 pour une maison, 2 pour un appartement, 2 est la valeur par défaut
     Surface terrain : Pour les maison la surface du terrain, par défaut à 0
+    :param numero:
+    :param type_voie:
+    :param voie:
+    :param code_postal:
+    :param surface:
+    :param nbr_piece:
+    :param nature:
+    :param surface_terrain:
+    :return: the estimation of the price based on the parameters
     """
     repertoire = pd.read_csv(base + "repertoire_code_adr.csv")
     abrev = repertoire["Type de voie"].unique()

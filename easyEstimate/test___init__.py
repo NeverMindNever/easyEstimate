@@ -1,6 +1,7 @@
 from unittest import TestCase
 
 
+
 class TestEstimate(TestCase):
     def test_estimer(self):
         import easyEstimate
@@ -9,8 +10,8 @@ class TestEstimate(TestCase):
 
 class TestAlphabetPosition(TestCase):
     def test_alphabet_position2a(self):
-        import easyEstimate
-        self.assertEqual(easyEstimate.alphabet_position("2A"), 21.0)
+        from easyEstimate import alphabet_position
+        self.assertEqual(alphabet_position("2A"), 21.0)
 
     def test_alphabet_position92(self):
         import easyEstimate

@@ -4,8 +4,8 @@ from unittest import TestCase
 
 class TestEstimate(TestCase):
     def test_estimer(self):
-        import easyEstimate
-        self.assertEqual(easyEstimate.estimer(20, "rue", "alphonse pluchet", 92220, 55, 4, 2, 0), 334181.0)
+        from easyEstimate import estimer
+        self.assertEqual(estimer(20, "rue", "alphonse pluchet", 92220, 55, 4, 2, 0), 334181.0)
 
 
 class TestAlphabetPosition(TestCase):

@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from joblib import load, dump
 import pandas as pd
 from string import ascii_lowercase
@@ -6,7 +8,7 @@ import datetime
 if __name__ == '__main__':
     base = ""
 else:
-    base = ""
+    base = Path(__file__).parent
 
 LETTERS = {letter: str(index) for index, letter in enumerate(ascii_lowercase, start=1)}
 

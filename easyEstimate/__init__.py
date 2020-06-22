@@ -6,9 +6,10 @@ from string import ascii_lowercase
 import datetime
 
 if __name__ == '__main__':
-    base = ""
+    base = "../"
 else:
-    base = Path(__file__).parent
+    base = Path(__file__).parent.parent
+    base = str(base) + "/"
 
 LETTERS = {letter: str(index) for index, letter in enumerate(ascii_lowercase, start=1)}
 

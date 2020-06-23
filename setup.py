@@ -1,9 +1,9 @@
 from setuptools import setup
-from easyEstimate import __version__
+from easyEstimate import version
 
 setup(
     name='easyEstimate',
-    version=__version__,
+    version=version,
     packages=['easyEstimate'],
     package_data={'': ['Appartement_Estimation_2019_Cat_Boost.joblib', 'repertoire_code_adr.csv']},
     include_package_data=True,

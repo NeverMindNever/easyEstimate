@@ -1,4 +1,5 @@
 from setuptools import setup
+
 from easyEstimate import version
 
 setup(

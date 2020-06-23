@@ -1,11 +1,10 @@
 from unittest import TestCase
 
 
-
 class TestEstimate(TestCase):
     def test_estimer(self):
         from easyEstimate import estimer
-        self.assertEqual(estimer(20, "rue", "alphonse pluchet", 92220, 55, 4, 2, 0), 334181.0)
+        self.assertEqual(estimer(20, "rue", "Alphonse Pluchet", 92220, 55, 4, 2, 0), 334181.0)
 
 
 class TestAlphabetPosition(TestCase):

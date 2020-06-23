@@ -5,7 +5,7 @@ from string import ascii_lowercase
 import pandas as pd
 from joblib import load
 
-version = "0.4.4"
+version = "0.4.5"
 
 if __name__ == '__main__':
     base = "../"

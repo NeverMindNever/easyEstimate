@@ -1,11 +1,9 @@
 import datetime
 from pathlib import Path
 from string import ascii_lowercase
-
 import pandas as pd
 from joblib import load
-
-version = "0.4.7"
+version = "0.4.8"
 
 if __name__ == '__main__':
     base = "./"

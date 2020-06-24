@@ -1,8 +1,10 @@
 from setuptools import setup
 
+version="0.4.8"
+
 setup(
     name='easyEstimate',
-    version="0.4.7",
+    version=version,
     packages=['easyEstimate'],
     package_data={
         'model': ['easyEstimate/Appartement_Estimation_2019_Cat_Boost.joblib'],

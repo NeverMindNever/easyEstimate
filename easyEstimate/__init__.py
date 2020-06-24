@@ -5,7 +5,7 @@ from string import ascii_lowercase
 import pandas as pd
 from joblib import load
 
-version = "0.4.5"
+version = "0.4.6"
 
 if __name__ == '__main__':
     base = "../"
@@ -20,6 +20,8 @@ appart = load(base + "Appartement_Estimation_2019_Cat_Boost.joblib")
 
 # maison = load(base + "Maison_Estimation_2019.joblib")
 
+def version():
+    return version
 
 def alphabet_position(word):
     text = ""

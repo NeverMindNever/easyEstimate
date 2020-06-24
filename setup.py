@@ -1,12 +1,9 @@
 from setuptools import setup
 
-from easyEstimate import version
-
 setup(
     name='easyEstimate',
-    version="0.4.6",
+    version="0.4.7",
     packages=['easyEstimate'],
-    package_data={'': ['Appartement_Estimation_2019_Cat_Boost.joblib', 'repertoire_code_adr.csv']},
     include_package_data=True,
     url='www.telecomazur.fr',
     license='Apache 2.0',

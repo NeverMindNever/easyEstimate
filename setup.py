@@ -4,7 +4,7 @@ from easyEstimate import version
 
 setup(
     name='easyEstimate',
-    version=version,
+    version="0.4.6",
     packages=['easyEstimate'],
     package_data={'': ['Appartement_Estimation_2019_Cat_Boost.joblib', 'repertoire_code_adr.csv']},
     include_package_data=True,
